@@ -1,0 +1,207 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 60%;
+	max-width:1200px;
+	margin: 0px auto;
+}
+
+
+ [class*="col-"]{
+ 	min-height: 7px;
+ 	padding: 12px;
+ 	float: left;
+ }
+
+ .row:before, .row:after{
+ 	content: "";
+ 	display: table;
+  }
+
+  .row:after {
+  	clear: both;
+  }
+
+.col-1{
+	width: 8.333333%;
+}
+
+.col-2{
+	width: 16.666667%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33333%;
+}
+
+.col-5 {
+	width: 41.666667%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.333333%;
+}
+
+.col-8 {
+	width: 66.666666%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33333%;
+}
+
+.col-11 {
+	width: 91.666667%;
+}
+
+.col-12 {
+	width:100%;
+}
+
+.logo img {                        /** estilos logo **/
+	width: 100%;
+	margin: auto;
+}
+
+header nav ul li {                 /** estilos nav **/
+	list-style: none;
+	text-align: center;
+}
+
+.menu-borde1 hr{
+	
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 0px;
+}
+
+.menu-borde2 hr{
+	
+	border-width: 1px;
+	border-style: solid;
+	margin-top: -10px;
+}
+
+header nav ul li a{ 
+
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+.grupal {					/** estilos imagen  **/
+	width: 100%;
+}
+
+.lab-bordes hr{				/** estilos texto laboratoria **/
+	border-width: 2px;
+	border-style: solid;
+	width: 10%;
+	margin: 10px auto;
+	color: gray;
+}
+
+.laboratoria p {
+	font-size: 24px;
+	text-align: center;
+	margin: 0px 150px;
+}
+
+.borde-coders hr{               
+	border-width: 2px;
+	border-style: solid;
+	width: 70%;
+	color: black;
+	margin: -5px 0px 10px 0px;
+}
+
+.box {							/** estilos seccion nuestras coders **/
+	position: relative
+
+}
+
+.coders .nombre img {
+	margin: 0px 10px;
+	width: 220px
+}
+
+.nombre a {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.container2{             /**************** estilos segunda pagina *****************/
+	width: 60%;
+	max-width:1200px;
+	margin: 50px auto;
+	border: 2px solid gray;
+	padding: 20px;
+}
+
+.perfil {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 0px 240px;
+}
+
+h1{
+	text-align: center;
+	font-size: 35px;
+}
+
+.biografia {
+	margin: 10px 20px;
+	text-align: center;
+}
+
+.habilidades h3, .portafolio h3{
+	font-size: 25px;
+}
+
+.lenguaje p{
+	background-color: gray;
+	margin: 0px 20px;
+	color: white;	
+}
+
+.html {
+	width: 70%;
+}
+
+.css {
+	width: 50%;
+}
+
+.js {
+	width: 20%;
+}
+
+.trabajos{
+	margin: 0px 20px;
+}
+
+
+
+
+
